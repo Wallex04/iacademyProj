@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+body {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+section {
+    background-color: hsl(217, 19%, 24%);
+    width: 35rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+h3 {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.313rem;
+    font-size: 1rem;
+}
+h1 {
+    color: hsl(193, 38%, 86%);
+    font-size: 1.75rem;
+}
+
+.box{
+   margin: auto;
+    position: relative;
+   padding-top: 2rem;
+}
+button {
+    background-color: hsl(150, 100%, 66%);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 1rem;
+    left: 15.5rem;
+}
+
+button:hover {
+    box-shadow: 0px 0px 25px 2px hsl(150, 100%, 66%);
+}

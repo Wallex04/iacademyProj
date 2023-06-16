@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(214, 173, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(221, 129, 43);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-text .time {
+    font-size: 2rem;
+}
+p b{
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    opacity: 0.5;
+}
+
+.shuffle {
+    border-top: 1px solid rgb(214, 200, 200);
+     padding: 20px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    max-width: 90%;
+    opacity: 0.9;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.hint {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.time {
+    font-size: 1.5rem;
+    padding-top: 0;
+    margin-top: 0;
+    opacity: 0.5;
+    font-weight: 600;
+}
+ b {
+    font-size: 2rem;
+}
+
+span {
+    color: orange;
+    padding-left: 1rem;
+}
+.hint1 {
+    color: black;
+    opacity: 0.5;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   outline: none; 
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    padding: 20px 45px;
+    font-size: 2rem;
+    background-color: rgb(41, 189, 41);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.start:hover {  
+    background-color:orangered;
+}
+
+@media (max-width: 700px) {
+ h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: fantasy;
+    padding-left: 0;
+    margin-left: 0;
+ }  
+ .container-text p {
+    font-size: 1rem;
+ } 
+ .hint1 {
+    display: none;
+}
+p b{
+    font-size: 2rem;
+}
+.shuffle {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+}
+.hint, span {
+    font-size: 1rem;
+    width: 100%;
+}
+input {
+    font-size: 1rem;
+    outline: none; 
+}
+.start {
+    font-size: 1rem;
+    padding: 10px 25px;
+}
+}
